@@ -1,0 +1,34 @@
+.header{
+    background-color: white;
+}
+.logo {
+    width: 110px;
+    height: 45px;
+    margin: 10px 0px 16px 0;
+    float: left;
+}
+.searchInput {
+    width: 400px;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 10px;
+    outline: none;
+}
+.searchInput:focus {
+    outline: none;
+}
+.nofBtn {
+    color: white;
+    background-color: blue;
+    width: 90px;
+    float: right;
+}
+.contentHeader {
+    display: flex;
+}
+.trigger {
+    padding: 17px 0px 0px 20px;
+    margin-right: 20px; 
+    width: 40px;
+    height: 40px;
+}

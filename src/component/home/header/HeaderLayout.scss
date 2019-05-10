@@ -1,0 +1,23 @@
+.icon {
+    font-size: 30px;
+}
+.header-btn:hover{
+    background-color: rgba(78, 164, 245, 0.226);
+}
+.header-btn {
+    text-justify: auto;
+    width: 200px;
+    height: 64px;
+    border: 0;
+    background-color: white;
+    color: var(--theme-color);
+}
+.header-text {
+    padding-top: 15px;
+    color: var(--theme-color)
+}
+.notification-btn {
+    height: 64px;
+    width: 50%;
+    border-right: 1px solid white;
+}

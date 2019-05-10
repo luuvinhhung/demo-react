@@ -1,0 +1,19 @@
+.footer {
+    height: 64px;
+    background-color: white;
+    color: black;
+    display: flex;
+    .status-infor {
+        display: flex;
+        .dot-color {
+            width: 10px;
+            height: 10px;
+            border-radius: 10px;
+            margin: 6px 5px 0 15px;
+        }
+        .checked {background-color: var(--checked);}
+        .completed {background-color: var(--completed);}
+        .confirmed {background-color: var(--confirmed);}
+        .not-confirm {background-color: var(--not-confirm);}
+    }
+}
