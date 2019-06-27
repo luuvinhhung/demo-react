@@ -11,6 +11,7 @@ export default class Grid extends Component {
       columnDefs: [
         {
           field: "class",
+          // active click detail 
           cellRenderer: "agGroupCellRenderer"
         },
         { field: "teacher" },
